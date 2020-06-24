@@ -20,7 +20,7 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.max_by do |x|
     if x.length > 4
       return TRUE
-    elsif x.length < 4
+    elsif x.length <= 4
       return FALSE
     end
   end
