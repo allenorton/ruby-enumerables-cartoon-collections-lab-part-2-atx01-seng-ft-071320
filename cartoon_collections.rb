@@ -20,6 +20,7 @@ def long_planeteer_calls(planeteer_calls)
   planeteer_calls.max_by do |x|
     if x.length > 4
       return TRUE
+    end
   end
 end
 
